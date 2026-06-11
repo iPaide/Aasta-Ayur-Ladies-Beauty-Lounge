@@ -1,10 +1,12 @@
 # Deploying The Aasta Ayur Demo
 
-This is a plain static site. There is no build step, package install, database, or backend.
+This is a plain static multi-page site. There is no build step, package install, database, or backend.
+
+Upload or deploy the entire folder, not only `index.html`.
 
 ## Before Deployment
 
-Replace these placeholders in `index.html`:
+Replace these placeholders across the HTML files:
 
 - `971000000000` with the verified Aasta Ayur WhatsApp number
 - `https://www.instagram.com/` with the verified Instagram URL
@@ -42,7 +44,8 @@ Render needs the project in a GitHub, GitLab, or Bitbucket repository.
 ## Post-Deploy Check
 
 - Hero image loads.
-- Service section shows five cards.
+- Navigation opens each page: Home, Services, Moroccan Bath, Bridal, Booking, Visit.
+- Service section shows five cards on the homepage.
 - Gallery shows hammam, botanical oils, and bridal beauty visuals.
 - Every WhatsApp CTA opens with a prefilled message.
 - No placeholder contact information is visible unless intentionally left for demo framing.
