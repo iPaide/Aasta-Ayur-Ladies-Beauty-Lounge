@@ -134,18 +134,6 @@ a {
   z-index: 2;
 }
 
-.concept-note {
-  background: rgba(255, 250, 242, 0.12);
-  border: 1px solid rgba(255, 250, 242, 0.28);
-  color: rgba(255, 250, 242, 0.92);
-  display: inline-flex;
-  font-size: 11px;
-  font-weight: 800;
-  margin: 0 0 18px;
-  padding: 8px 10px;
-  text-transform: uppercase;
-}
-
 .eyebrow,
 .section-kicker {
   color: var(--gold);
@@ -598,7 +586,7 @@ summary {
   max-width: 980px;
 }
 
-.page-hero-content p:not(.eyebrow):not(.concept-note),
+.page-hero-content p:not(.eyebrow),
 .page-title p {
   font-size: clamp(17px, 2vw, 22px);
   max-width: 720px;
